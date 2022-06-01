@@ -3,9 +3,9 @@
 const inputName = document.getElementById('input-name');
 const nameDisplay = document.getElementById('name-display');
 
-console.log(inputName)
 
 inputName.addEventListener('input', () => {
+        console.log('validating key press input'); 
 });
 // set event listeners
     // get info from user input
