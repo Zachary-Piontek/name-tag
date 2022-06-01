@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Hubballi', cursive;
+    font-family: monospace, 'Hubballi', cursive;
     background-color: var(--background);
 }
 
@@ -26,4 +26,31 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+span {
+    display: block;
+}
+
+p {
+    text-align: center;
+}
+
+#name-tag {
+    border: 1px solid black;
+    background-image: linear-gradient(red, yellow, orange);
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#hello-text {
+    font-size: 4em;
+}
+
+#name-display {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 2px double red;
 }
