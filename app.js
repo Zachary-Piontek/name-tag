@@ -5,7 +5,9 @@ const nameDisplay = document.getElementById('name-display');
 
 
 inputName.addEventListener('input', () => {
-        console.log('validating key press input'); 
+    const name = inputName.value;
+    nameDisplay.textContent = name;
+    console.log(name);
 });
 // set event listeners
     // get info from user input
