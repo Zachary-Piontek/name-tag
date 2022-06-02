@@ -1,3 +1,12 @@
+#wireframe-layout
+
+--Event List--
+    // input name for text
+    // display text from input for state
+    // logging each key stroke
+
+![name tag](./assets/Wireframe-nametag.png)
+
 ## The Golden Rule:
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
